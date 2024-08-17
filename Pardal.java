@@ -2,17 +2,17 @@ package org.example;
 
 public class Pardal extends Aves{
     public void locomover(){
-        System.out.println(" Estou voando ");
+        System.out.println("Este Pardal está voando");
     }
 
     public void emitirSom(){
-        System.out.println("Estou cantando");
+        System.out.println("Este Pardal está cantando");
     }
     public void locomover(int velocidade) {
-        System.out.println("Essa ave voa à " + velocidade + " Kilômetros por hora");
+        System.out.println("Este Pardal consegue voar à: "+ velocidade + " Km/h");
 
     }
     public void locomover(int velocidade, String terreno){
-        System.out.println("Estou indo na "+ velocidade+ " em "+ terreno);
+        System.out.println("Este Pardal consegue chegar à: "+ velocidade + " Km/h "+ "no terreno: "+ terreno);
     }
 }

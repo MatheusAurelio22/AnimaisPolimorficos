@@ -2,18 +2,18 @@ package org.example;
 
 public class Pato extends Aves{
     public void locomover(){
-        System.out.println("Estou Rastejando");
+        System.out.println("Este Pato está se locomovendo");
     }
 
     public void emitirSom(){
-        System.out.println("Estou chocalhando");
+        System.out.println("Este Pato está grasnando");
     }
     public void locomover(int velocidade){
-        System.out.println("Essa espécie consegue chegar à "+ velocidade+ " Kilômetros por hora");
+        System.out.println("Este Pato consegue chegar à: "+ velocidade + " Km/h");
 
     }
     public void locomover(int velocidade, String terreno){
-        System.out.println("Estou indo na "+ velocidade+ " em "+ terreno);
+        System.out.println("Este Pato consegue chegar à: "+ velocidade + " Km/h "+ "no terreno: "+ terreno);
     }
 
 

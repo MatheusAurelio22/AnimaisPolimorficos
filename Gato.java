@@ -3,17 +3,17 @@ package org.example;
 public class Gato extends Mamifero{
 
     public void locomover(){
-        System.out.println("Estou Rastejando");
+        System.out.println("Este Gato está se locomovendo");
     }
 
     public void emitirSom(){
-        System.out.println("Estou chocalhando");
+        System.out.println("Este Gato está miando");
     }
     public void locomover(int velocidade){
-        System.out.println("Essa espécie consegue chegar à "+ velocidade+ " Kilômetros por hora");
+        System.out.println("Este Gato consegue voar à: "+ velocidade + " Km/h");
 
     }
     public void locomover(int velocidade, String terreno){
-        System.out.println("Estou indo na "+ velocidade+ " em "+ terreno);
+        System.out.println("Este Gato consegue chegar à: "+ velocidade + " Km/h "+ "no terreno: "+ terreno);
     }
 }

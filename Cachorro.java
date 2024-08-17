@@ -2,17 +2,17 @@ package org.example;
 
 public class Cachorro extends Mamifero{
     public void locomover(){
-        System.out.println("Estou andando");
+        System.out.println("Esta raça está se locomovendo");
     }
 
     public void emitirSom(){
-        System.out.println("Estou latindo");
+        System.out.println("Esta raça está latindo");
     }
     public void locomover(int velocidade){
-        System.out.println("Essa Raça consegue chegar à "+ velocidade + " kilômetros por hora");
+        System.out.println("Essa Raça consegue chegar à: "+ velocidade + " Km/h");
 
     }
     public void locomover(int velocidade, String terreno){
-        System.out.println("Estou indo na "+ velocidade+ " em "+ terreno);
+        System.out.println("Essa Raça consegue chegar à: "+ velocidade + " Km/h "+ "no terreno: "+ terreno);
     }
 }
